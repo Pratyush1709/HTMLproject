@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    Hello world, Pratyush is going to create history!
+    <!-- this is comment -->
+    <h1 style="background-color: rgb(15, 15, 245);">this is my first heading</h1>
+    <!-- style is the attribute -->
+    <h2 style="color: blueviolet;">this is my second heading</h2>
+    <h3>this is my third heading</h3>
+    <h4>this is my fourth heading</h4>
+    <h5>this is my fifth heading</h5>
+    <h6>this is my  sixth heading</h6>
+    <!-- if '/' is not given in the ending tag then a new indent is added onwards -->
+    <p>this is first paragraph</p>
+    <a href="https://www.google.com">click here</a>
+    <!-- above is the anchor tag used for the transfer to the other documents/website -->
+    <ul>
+        <li>maggie</li>
+        <li>kurkure</li>
+        <li>lays</li>
+    </ul>
+    <!-- ul= unordered list -->
+    <!-- ol= ordered list -->
+    <!-- li=list -->
+    <ol>
+        <li>Milk</li>
+        <li>chesse</li>
+        <li>pizza</li>
+    </ol>
+    <table>
+        <tr>
+            <td>s.no</td>
+            <td>name</td>
+            <td>dept</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Pratyush</td>
+            <td>ECE</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Aman</td>
+            <td>IT</td>
+        </tr>
+    </table>
+    <!-- for above table, the emit shorcut is= table>(tr>td*3)*3 -->
+    <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.facebook.com%2Floveyoulordkrishna%2F&psig=AOvVaw3bUOCs_Yg5ouzOtOTrGsD-&ust=1683912315756000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCLCYma3k7f4CFQAAAAAdAAAAABAE" alt="Lord Krishna">
+    <p>Lorem <i>ipsum </i> dolor <b>sit</b> <s>amet</s> <u>consectetur</u> <u><strong>adipisicing</strong></u> elit <em> Illo</em>, quaerat mollitia magnam aliquam nobis ullam?</p>
+    <!-- lorem n= n number of random words are come -->
+    <p>
+        2<sup>5</sup>
+        <br>
+        O<sub>2</sub>
+    </p>
+
+    <ul>
+        <li>Coffee</li>
+        <li>Tea
+          <ul>
+            <li>Black tea</li>
+            <li>Green tea</li>
+          </ul>
+        </li>
+        <li>Milk</li>
+      </ul>
+      <!-- The above list is the nested list -->
+
+    <pre>
+        I love my India.
+        There is no 
+        doubt!
+        Viswa Guru...
+    </pre>
+   <p id="para1"></p> 
+   <p id="para2"></p>
+<!-- above is id and the emmit is p#para1-->
+    <p class="para"></p>
+    <!-- the above is class and the emmit is p.para -->
+
+    <div style="background-color: aqua;">this is my first div</div>
+    <!-- div is a block element -->
+    <span style="background-color: blue;">this is my first span</span>
+    <!-- span is a inline element -->
+    <div style="background-color: aqua;display: inline;">this is my first div</div>
+    <!-- using display: inline ->can convert the block into inline -->
+    <span style="background-color: blue;display: block;">this is my first span</span>
+    <!-- using display: block ->can convert the inline into block -->
+    <nav>
+        <ul>
+            <li><a href="">home</a></li>
+            <li><a href="">contact</a></li>
+            <li><a href="">email</a></li>
+        </ul>
+    </nav>
+    <a href="mailto:pratyushdas1709@gmail.com">email</a>
+
+    <p>These three elements are used to create a description list:</p>
+
+<dl>
+  <dt>Coffee</dt>
+  <dd>Black hot drink</dd>
+  <dt>Milk</dt>
+  <dd>White cold drink</dd>
+</dl>
+
+<p>In this example, we use CSS to style the list horizontally, to create a navigation menu:</p>
+
+<ul style="list-style-type:square;">
+    <!-- disc(default),circle,square,none -->
+    <li >Coffee</li>
+    <li >Tea</li>
+    <li >Milk</li>
+  </ul>
+
+  <ul>
+    <li style="display:inline">Coffee</li>
+    <li style="display:inline">Tea</li>
+    <li style="display:inline">Milk</li>
+  </ul>
+  <!-- to create a list that expands horizontally, we need to add the display:inline style to the <li> elements of the list. -->
+
+    <table border="">
+        <!-- by above border can be added -->
+        <thead>
+            <th>id</th>
+            <th>name</th>
+            <th>gender</th>
+            <th>age</th>
+        </thead>
+        <!-- by thead tag, heading content is get bold -->
+        <tbody>
+            <tr>
+                <td>1234</td>
+                <td>PRATYUSH</td>
+                <td>M</td>
+                <td>20</td>
+            </tr>
+            <tr>
+                <td>5678</td>
+                <td>DAS</td>
+                <td>M</td>
+                <td>17</td>
+            </tr>
+            <tr>
+                <td>7896</td>
+                <td>KAVYA</td>
+                <td>F</td>
+                <td rowspan="2">18</td>
+                <!-- by ROWSPAN, 18 can be added in two(2) rows having common cell -->
+            </tr>
+            <tr>
+                <td>7896</td>
+                <td>KAVYA</td>
+                <td>F</td>
+            </tr>
+            <tr>
+                <td>4578</td>
+                <td colspan="3">RATHOD</td>
+                <!-- by COLSPAN, RATHOD can added in three(3) columns having common cell  -->
+            </tr>
+        </tbody>
+
+        <table border="1">
+        <thead>
+            <th>column 1</th>
+            <th>coulmn 2</th>
+            <th>column 3</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="2">row 1 cell 1</td>
+                <td>row 1 cell 2</td>
+                <td>row 1 cell 3</td>
+            </tr>
+            <tr>
+                <td>row 2 cell 2</td>
+                <td>row 2 cell 3</td>
+            </tr>
+            <tfoot>
+                <td colspan="3">row 3 cell 1</td>
+            </tfoot>
+        </tbody>
+    </table>
+
+    <table border="">
+        <thead>
+            <th>no.</th>
+            <th>full name</th>
+            <th>position</th>
+            <th>salary</th>
+            <th>type</th>
+        </thead>
+        <tr>
+            <td>1</td>
+            <td>bill gates</td>
+            <td>founder microsoft</td>
+            <td>1000</td>
+            <td rowspan="4">company founder</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>steve jobs</td>
+            <td>founder apple</td>
+            <td>1200</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>larry page</td>
+            <td>founder google</td>
+            <td>1100</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>mark zuckerburg</td>
+            <td>founder facebook</td>
+            <td>1300</td>
+        </tr>
+        <tfoot>
+            <tr>
+                <td colspan="3">
+                    total expense
+                </td>
+                <td>
+                    4600
+                </td>
+            </tr>
+        </tfoot>
+    </table>
+    
+    <table border="">
+        <thead>
+            <th>country</th>
+            <th>state</th>
+            <th>city</th>
+            <th>street</th>
+            <th>male</th>
+            <th>female</th>
+            <th>others</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="8">1</td>
+                <td rowspan="4">kerala</td>
+                <td rowspan="2">cochin</td>
+                <td>new street</td>
+                <td>500</td>
+                <td>600</td>
+                <td>6</td>
+            </tr>
+            <tr>
+                <td>main street</td>
+                <td>300</td>
+                <td>288</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td rowspan="2">trivandrum</td>
+                <td>guru street</td>
+                <td>500</td>
+                <td>600</td>
+                <td>10</td>
+            </tr>
+            <tr>
+                 <td>TVK street</td>
+                 <td>500</td>
+                 <td>600</td>
+                 <td>2</td>
+            </tr>
+            <tr>
+                <td rowspan="4">maharastra</td>
+                <td rowspan="2">mumbai</td>
+                <td>krishna street</td>
+                <td>700</td>
+                <td>850</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>main street</td>
+                <td>500</td>
+                <td>600</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td rowspan="2">surath</td>
+                <td>new street</td>
+                <td>500</td>
+                <td>600</td>
+                <td>4</tr>
+            </tr>
+            <tr>
+                <td>billa street</td>
+                <td>500</td>
+                <td>600</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td rowspan="2">2</td>
+                <td rowspan="2">alaska</td>
+                <td rowspan="2">AKA central</td>
+                <td>new street</td>
+                <td>200</td>
+                <td>210</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>cross street</td>
+                <td>1000</td>
+                <td>1050</td>
+                <td>10</td>
+            </tr>
+        </tbody>
+    </table>
+    <table border="">
+        <thead>
+        <tr>
+            <th rowspan="3">Day</th>
+            <th colspan="3">Seminar</th>
+        </tr>
+        <tr>
+            <th colspan="2">Schedule</th>
+            <th rowspan="2">Topic </th>
+        </tr>
+        <tr>
+            <th>Begin</th>
+            <th>End</td></th>
+        </tr>
+        </thead>
+        <tr>
+            <td rowspan="2">Monday</td>
+            <td rowspan="2">8:00 a.m.</td>
+            <td rowspan="2">5:00 p.m.</td>
+            <td>Introduction to XML</td>
+        </tr>
+        <tr>
+            <td>Validity:DTD and Relax NG</td>
+        </tr>
+        <tr>
+            <td rowspan="3">Tuesday</td>
+            <td>8:00 a.m.</td>
+            <td>11:00 a.m.</td>
+            <td rowspan="1.5">XPath</td>
+        </tr>
+        <tr>
+            <td>11:00 a.m.</td>
+            <td>2:00 p.m.</td>
+            <td rowspan="1.5">XSL Transformations</td>
+        </tr>
+        <tr>
+            <td>2:00 p.m.</td>
+            <td>5:00 p.m.</td>
+        </tr>
+        <tr>
+            <td>Wednesday</td>
+            <td>8:00 a.m.</td>
+            <td>12:00 p.m.</td>
+            <td>XSL Formatting Objects</td>
+        </tr>
+    </table>
+</body>
+</html> 
